@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM ubuntu:jammy
 
 RUN export DEBIAN_FRONTEND=noninteractive
 RUN apt-get update
